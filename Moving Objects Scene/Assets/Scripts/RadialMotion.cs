@@ -8,7 +8,9 @@ public class RadialMotion : MonoBehaviour
 
     public float speed;
     public float width;
+    public float height;
     public float depth;
+    public bool rotationIsClockwise;
 
 
     // Start is called before the first frame update
@@ -22,11 +24,18 @@ public class RadialMotion : MonoBehaviour
     {
         timeCounter += Time.deltaTime*speed;
 
-        float x = Mathf.Cos(timeCounter)*width;
-        float y = 0;
-        float z = Mathf.Sin(timeCounter)*depth;
+        float x = Mathf.Cos(timeCounter) * width;
+        float y = Mathf.Sin(timeCounter) * height;
+        float z = Mathf.Sin(timeCounter) * depth;
 
-        transform.position = new Vector3(x, y, z) + offset;
+        if (rotationIsClockwise == true)
+        {
+            transform.position = new Vector3(-x, y, z) + offset;
+        }
+        else
+        {
+            transform.position = new Vector3(x, y, z) + offset;
+        }
 
     }
 }
