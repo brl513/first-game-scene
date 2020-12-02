@@ -6,17 +6,15 @@ public class RadialMotion : MonoBehaviour
 
     float timeCounter = 0;
 
-    float speed;
-    float width;
-    float depth;
+    public float speed;
+    public float width;
+    public float depth;
 
 
     // Start is called before the first frame update
     void Start()
     {
-        speed = 1;
-        width = 3;
-        depth = 3;
+        
     }
 
     // Update is called once per frame
