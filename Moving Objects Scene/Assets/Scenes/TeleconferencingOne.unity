@@ -1275,6 +1275,104 @@ Light:
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!1 &713898992
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 713898997}
+  - component: {fileID: 713898996}
+  - component: {fileID: 713898995}
+  - component: {fileID: 713898994}
+  - component: {fileID: 713898993}
+  m_Layer: 0
+  m_Name: OSC Output
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &713898993
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 713898992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9456ec9c1156744fad05e1b136611da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IPAddress: 127.0.0.1
+  oscPortOut: 6004
+  _mainCamera: {fileID: 1602487263}
+  _audioSourceObject1: {fileID: 222788900}
+--- !u!114 &713898994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 713898992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9456ec9c1156744fad05e1b136611da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IPAddress: 127.0.0.1
+  oscPortOut: 6003
+  _mainCamera: {fileID: 1602487263}
+  _audioSourceObject1: {fileID: 1614957589}
+--- !u!114 &713898995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 713898992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9456ec9c1156744fad05e1b136611da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IPAddress: 127.0.0.1
+  oscPortOut: 6002
+  _mainCamera: {fileID: 1602487263}
+  _audioSourceObject1: {fileID: 873994412}
+--- !u!114 &713898996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 713898992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9456ec9c1156744fad05e1b136611da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IPAddress: 127.0.0.1
+  oscPortOut: 6001
+  _mainCamera: {fileID: 1602487263}
+  _audioSourceObject1: {fileID: 716012555}
+--- !u!4 &713898997
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 713898992}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &716012555 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f091b0cdc681249b68912ff91f173d74,
