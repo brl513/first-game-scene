@@ -1,19 +1,14 @@
 ﻿<Properties StartupConfiguration="{3F8049E5-3245-E762-41F3-37E4B0BCEA85}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Kevin Iglesias/3DCharacterDummy/Readme.txt">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/animationStateController.cs">
     <Files>
       <File FileName="Assets/Scripts/RadialMotion.cs" Line="19" Column="9" />
-      <File FileName="Assets/Kevin Iglesias/3DCharacterDummy/Readme.txt" Line="15" Column="11" />
+      <File FileName="Assets/Scripts/animationStateController.cs" Line="23" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Moving Objects Scene" expanded="True">
-            <Node name="Assets" expanded="True">
-              <Node name="Kevin Iglesias" expanded="True">
-                <Node name="3DCharacterDummy" expanded="True">
-                  <Node name="Readme.txt" selected="True" />
-                </Node>
-              </Node>
+            <Node name="Assets" expanded="True" selected="True">
               <Node name="Scripts" expanded="True" />
             </Node>
           </Node>
@@ -23,7 +18,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="f245b033-fe35-468e-903e-a73970f56ebd" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="0a740282-f258-4a61-b0bd-720460cd5feb" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
