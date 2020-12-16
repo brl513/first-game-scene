@@ -1,15 +1,19 @@
 ﻿<Properties StartupConfiguration="{3F8049E5-3245-E762-41F3-37E4B0BCEA85}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/animationStateController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/OSCInput.cs">
     <Files>
-      <File FileName="Assets/Scripts/RadialMotion.cs" Line="19" Column="9" />
-      <File FileName="Assets/Scripts/animationStateController.cs" Line="23" Column="1" />
+      <File FileName="Assets/Scripts/OSCOutput.cs" Line="50" Column="31" />
+      <File FileName="Assets/Scripts/OSCInput.cs" Line="4" Column="1" />
+      <File FileName="Assets/Scripts/RadialMotion.cs" />
+      <File FileName="Assets/Scripts/animationStateController.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Moving Objects Scene" expanded="True">
-            <Node name="Assets" expanded="True" selected="True">
-              <Node name="Scripts" expanded="True" />
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="OSCInput.cs" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>
@@ -18,7 +22,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="0a740282-f258-4a61-b0bd-720460cd5feb" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="f0f3353d-e859-43b3-a754-f62e98f70fb6" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
