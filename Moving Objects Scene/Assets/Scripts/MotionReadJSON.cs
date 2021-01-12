@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class RadialMotion : MonoBehaviour
+public class MotionReadJSON : MonoBehaviour
 {
     public Vector3 offset;
 

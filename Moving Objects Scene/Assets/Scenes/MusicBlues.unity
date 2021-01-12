@@ -519,15 +519,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 269112014}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60b93a1d731c54481a8eeebcd07ed77e, type: 3}
+  m_Script: {fileID: 11500000, guid: e6a65f69d303945e78f69e98c0abbb95, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: {x: 0, y: 1, z: 0}
-  jsonReader: {fileID: 916477967}
-  speed: 1.5
-  width: 3
+  movementIsClockwise: 1
+  centrePoint: {x: 0, y: 1.5, z: 0}
+  width: 2
+  depth: 2
   height: 0
-  depth: 1
+  radiusMultiplier: 1
+  radialSpeed: 2
 --- !u!135 &269112017
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -682,6 +683,50 @@ Transform:
   m_Father: {fileID: 1597996691}
   m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!1 &349498138
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 349498140}
+  - component: {fileID: 349498139}
+  m_Layer: 0
+  m_Name: radialMotionJSONReader
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &349498139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 349498138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9206ecf24a774eb0a64256b75b564e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jsonFile: {fileID: 4900000, guid: 755e7861a3e0746f7a93f925e30e40f0, type: 3}
+--- !u!4 &349498140
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 349498138}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.7827377, y: 0.69828624, z: 2.6019344}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &361478933
 GameObject:
   m_ObjectHideFlags: 0
@@ -1718,7 +1763,7 @@ GameObject:
   - component: {fileID: 916477966}
   - component: {fileID: 916477967}
   m_Layer: 0
-  m_Name: JSONReader
+  m_Name: cylindricalMotionJSONReader
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4643,15 +4688,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 1990294899}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60b93a1d731c54481a8eeebcd07ed77e, type: 3}
+  m_Script: {fileID: 11500000, guid: af4f897e601ad4662a06a09948c64a7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: {x: 0, y: 1.5, z: 0}
-  jsonReader: {fileID: 916477967}
+  oscillationInXAxis: 1
+  oscillationInYAxis: 0
+  oscillationInZAxis: 0
+  centrePoint: {x: 0, y: 1.5, z: 0}
+  xDisplacement: 2
+  yDisplacement: 0
+  zDisplacement: 0
   speed: 1
-  width: 3
-  height: 0
-  depth: 3
 --- !u!135 &1990294901
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -4833,12 +4880,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 2113504823}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60b93a1d731c54481a8eeebcd07ed77e, type: 3}
+  m_Script: {fileID: 11500000, guid: 0ddc66399d5ff4a5689b1f8d300c1d67, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: {x: 0, y: 1.5, z: 0}
-  jsonReader: {fileID: 916477967}
-  speed: 5
-  width: 1.5
-  height: 0
-  depth: 2
+  movementIsClockwise: 1
+  centrePoint: {x: 0, y: 1.5, z: 0}
+  height: 1
+  radiusMultiplier: 2
+  startAz: 0
+  endAz: 1440
+  startEl: 0
+  endEl: 720
+  orientation: {x: 0, y: 0, z: 0}
