@@ -1962,7 +1962,6 @@ GameObject:
   - component: {fileID: 269112016}
   - component: {fileID: 269112020}
   - component: {fileID: 269112021}
-  - component: {fileID: 269112022}
   - component: {fileID: 269112023}
   m_Layer: 0
   m_Name: WalkTrombone
@@ -1998,7 +1997,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movementIsClockwise: 1
-  centrePoint: {x: 0, y: 1.5, z: 0}
+  centrePoint: {x: 0, y: 0, z: 0}
   width: 2
   depth: 2
   height: 1
@@ -3534,19 +3533,6 @@ MonoBehaviour:
   - 0
   - 0
   - 0
---- !u!114 &269112022
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 269112014}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b7e4056558f94692988dcb01e060a5c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  FILE_NAME: 
 --- !u!114 &269112023
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20972,7 +20958,7 @@ MonoBehaviour:
   oscillationInXAxis: 1
   oscillationInYAxis: 1
   oscillationInZAxis: 1
-  centrePoint: {x: 0, y: 1.5, z: 0}
+  centrePoint: {x: 0, y: 0, z: 0}
   xDisplacement: 2
   yDisplacement: 1
   zDisplacement: 1
@@ -22658,7 +22644,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movementIsClockwise: 1
-  centrePoint: {x: 0, y: 1.5, z: 0}
+  centrePoint: {x: 0, y: 0, z: 0}
   height: 1
   radiusMultiplier: 1
   startAz: 0
