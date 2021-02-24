@@ -1,11 +1,8 @@
 ﻿<Properties StartupConfiguration="{3F8049E5-3245-E762-41F3-37E4B0BCEA85}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/JSONReader.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/TypesOfMotion/SphericalMotionArrayCreator.cs">
     <Files>
-      <File FileName="Assets/Scripts/MotionSetup.cs" Line="17" Column="23" />
-      <File FileName="Assets/Scripts/MotionArrayReader.cs" Line="24" Column="38" />
-      <File FileName="Assets/Scripts/JSONReader.cs" Line="17" Column="1" />
-      <File FileName="Assets/Scripts/InstantPosition.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/InstantPositions.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/TypesOfMotion/SphericalMotionArrayCreator.cs" Line="21" Column="41" />
+      <File FileName="Assets/Scripts/TypesOfMotion/Static.cs" Line="8" Column="31" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -13,7 +10,9 @@
           <Node name="Moving Objects Scene" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="JSONReader.cs" selected="True" />
+                <Node name="TypesOfMotion" expanded="True">
+                  <Node name="SphericalMotionArrayCreator.cs" selected="True" />
+                </Node>
               </Node>
             </Node>
           </Node>
@@ -23,7 +22,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="363c38a2-d9ad-4246-9f6f-f7db7f5f5ecb" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="f78bae20-48d3-484f-acc5-3f5cbd29aaae" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
