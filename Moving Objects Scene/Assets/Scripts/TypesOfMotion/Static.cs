@@ -5,7 +5,7 @@ using UnityEngine;
 public class Static : MonoBehaviour
 {
     MotionSetup motionSetup;
-    public Vector3 centrePoint;
+    public Vector3 offset;
 
     // Start is called before the first frame update
     void Start()

@@ -1,20 +1,28 @@
 ﻿<Properties StartupConfiguration="{3F8049E5-3245-E762-41F3-37E4B0BCEA85}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/JSONWriter.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/WriteFileNameJSON.cs">
     <Files>
-      <File FileName="Assets/Scripts/TypesOfMotion/CylindricalMotionArrayCreator.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/TypesOfMotion/SphericalMotionArrayCreator.cs" Line="21" Column="41" />
+      <File FileName="Assets/Scripts/WriteFileNameJSON.cs" Line="36" Column="56" />
+      <File FileName="Assets/Scripts/Track.cs" />
       <File FileName="Assets/Scripts/TypesOfMotion/Static.cs" />
-      <File FileName="Assets/Scripts/JSONWriter.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/MotionArrayReader.cs" />
+      <File FileName="Assets/Scripts/JSONWriter.cs" />
+      <File FileName="Assets/Scripts/InstantPosition.cs" />
+      <File FileName="Assets/Scripts/InstantPositions.cs" />
+      <File FileName="Assets/Scripts/Tracks.cs" />
+      <File FileName="Assets/Scripts/JSONReader.cs" />
+      <File FileName="Assets/Scripts/Settings.cs" />
+      <File FileName="Assets/Scripts/JSONHelper.cs" />
+      <File FileName="Assets/Scripts/JSONHelperB.cs" />
+      <File FileName="Assets/Scripts/MotionSetup.cs" />
+      <File FileName="Assets/Scripts/TypesOfMotion/SphericalMotionArrayCreator.cs" />
+      <File FileName="Assets/Scripts/TypesOfMotion/CylindricalMotionArrayCreator.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Moving Objects Scene" expanded="True">
-            <Node name="Assets" expanded="True">
-              <Node name="Scripts" expanded="True">
-                <Node name="TypesOfMotion" expanded="True" />
-                <Node name="JSONWriter.cs" selected="True" />
-              </Node>
+            <Node name="Assets" expanded="True" selected="True">
+              <Node name="Scripts" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -23,7 +31,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="84e2967b-d95c-4a76-b09d-3dee084fcdd0" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="3b02111a-94a2-47a8-b9d3-f8e8f25cd660" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

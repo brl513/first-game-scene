@@ -233,9 +233,11 @@ GameObject:
   - component: {fileID: 12363747}
   - component: {fileID: 12363751}
   - component: {fileID: 12363750}
+  - component: {fileID: 12363753}
+  - component: {fileID: 12363752}
   m_Layer: 0
   m_Name: BassTrombone
-  m_TagString: Untagged
+  m_TagString: Instrument
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -329,7 +331,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15a80da248b34452a8f4779f1e5f53e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  centrePoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &12363751
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1786,6 +1788,31 @@ MonoBehaviour:
   - 0
   - 0
   - 0
+--- !u!114 &12363752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 12363745}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b7e4056558f94692988dcb01e060a5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FILE_NAME: BassTrombone
+--- !u!114 &12363753
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 12363745}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97a9e805025284a23882a549bb87dc00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &46498593
 GameObject:
   m_ObjectHideFlags: 0
@@ -1965,7 +1992,7 @@ GameObject:
   - component: {fileID: 269112023}
   m_Layer: 0
   m_Name: WalkTrombone
-  m_TagString: Untagged
+  m_TagString: Instrument
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3880,9 +3907,11 @@ GameObject:
   - component: {fileID: 428201969}
   - component: {fileID: 428201973}
   - component: {fileID: 428201972}
+  - component: {fileID: 428201975}
+  - component: {fileID: 428201974}
   m_Layer: 0
   m_Name: StacTrumpet
-  m_TagString: Untagged
+  m_TagString: Instrument
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3976,7 +4005,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15a80da248b34452a8f4779f1e5f53e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  centrePoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &428201973
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5433,6 +5462,31 @@ MonoBehaviour:
   - 0
   - 0
   - 0
+--- !u!114 &428201974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 428201967}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b7e4056558f94692988dcb01e060a5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FILE_NAME: StacTrumpet
+--- !u!114 &428201975
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 428201967}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97a9e805025284a23882a549bb87dc00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &532267021
 GameObject:
   m_ObjectHideFlags: 0
@@ -6063,9 +6117,11 @@ GameObject:
   - component: {fileID: 887611393}
   - component: {fileID: 887611397}
   - component: {fileID: 887611396}
+  - component: {fileID: 887611399}
+  - component: {fileID: 887611398}
   m_Layer: 0
   m_Name: AltoSaxHi
-  m_TagString: Untagged
+  m_TagString: Instrument
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6159,7 +6215,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15a80da248b34452a8f4779f1e5f53e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  centrePoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &887611397
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7616,6 +7672,31 @@ MonoBehaviour:
   - 0
   - 0
   - 0
+--- !u!114 &887611398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 887611391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b7e4056558f94692988dcb01e060a5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FILE_NAME: AltoSaxHi
+--- !u!114 &887611399
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 887611391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97a9e805025284a23882a549bb87dc00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &896718290
 GameObject:
   m_ObjectHideFlags: 0
@@ -8384,9 +8465,11 @@ GameObject:
   - component: {fileID: 1091531116}
   - component: {fileID: 1091531120}
   - component: {fileID: 1091531119}
+  - component: {fileID: 1091531122}
+  - component: {fileID: 1091531121}
   m_Layer: 0
   m_Name: Snare
-  m_TagString: Untagged
+  m_TagString: Instrument
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8480,7 +8563,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15a80da248b34452a8f4779f1e5f53e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  centrePoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &1091531120
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9937,6 +10020,31 @@ MonoBehaviour:
   - 0
   - 0
   - 0
+--- !u!114 &1091531121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1091531114}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b7e4056558f94692988dcb01e060a5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FILE_NAME: Snare
+--- !u!114 &1091531122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1091531114}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97a9e805025284a23882a549bb87dc00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1102406604
 GameObject:
   m_ObjectHideFlags: 0
@@ -10124,6 +10232,49 @@ Transform:
   m_Father: {fileID: 1521511010}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!1 &1160920652
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1160920654}
+  - component: {fileID: 1160920653}
+  m_Layer: 0
+  m_Name: WriteFileNameJSON
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1160920653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1160920652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e5426c124dfe4460af5cf065d5b3127, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1160920654
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1160920652}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1204357344}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1174073944
 GameObject:
   m_ObjectHideFlags: 0
@@ -10277,6 +10428,7 @@ Transform:
   m_Children:
   - {fileID: 896718291}
   - {fileID: 1737944135}
+  - {fileID: 1160920654}
   m_Father: {fileID: 1813334076}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
@@ -10418,9 +10570,11 @@ GameObject:
   - component: {fileID: 1258007798}
   - component: {fileID: 1258007802}
   - component: {fileID: 1258007801}
+  - component: {fileID: 1258007804}
+  - component: {fileID: 1258007803}
   m_Layer: 0
   m_Name: AltoSaxLo
-  m_TagString: Untagged
+  m_TagString: Instrument
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10514,7 +10668,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15a80da248b34452a8f4779f1e5f53e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  centrePoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &1258007802
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11971,6 +12125,31 @@ MonoBehaviour:
   - 0
   - 0
   - 0
+--- !u!114 &1258007803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1258007796}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b7e4056558f94692988dcb01e060a5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FILE_NAME: AltoSaxLo
+--- !u!114 &1258007804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1258007796}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97a9e805025284a23882a549bb87dc00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1261050673
 GameObject:
   m_ObjectHideFlags: 0
@@ -11985,9 +12164,11 @@ GameObject:
   - component: {fileID: 1261050675}
   - component: {fileID: 1261050679}
   - component: {fileID: 1261050678}
+  - component: {fileID: 1261050681}
+  - component: {fileID: 1261050680}
   m_Layer: 0
   m_Name: MidTrombone
-  m_TagString: Untagged
+  m_TagString: Instrument
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12081,7 +12262,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15a80da248b34452a8f4779f1e5f53e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  centrePoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &1261050679
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13538,6 +13719,31 @@ MonoBehaviour:
   - 0
   - 0
   - 0
+--- !u!114 &1261050680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1261050673}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b7e4056558f94692988dcb01e060a5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FILE_NAME: MidTrombone
+--- !u!114 &1261050681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1261050673}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97a9e805025284a23882a549bb87dc00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1290978267
 GameObject:
   m_ObjectHideFlags: 0
@@ -13736,9 +13942,11 @@ GameObject:
   - component: {fileID: 1357824843}
   - component: {fileID: 1357824847}
   - component: {fileID: 1357824846}
+  - component: {fileID: 1357824849}
+  - component: {fileID: 1357824848}
   m_Layer: 0
   m_Name: Kick
-  m_TagString: Untagged
+  m_TagString: Instrument
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13832,7 +14040,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15a80da248b34452a8f4779f1e5f53e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  centrePoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &1357824847
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15289,6 +15497,31 @@ MonoBehaviour:
   - 0
   - 0
   - 0
+--- !u!114 &1357824848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1357824841}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b7e4056558f94692988dcb01e060a5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FILE_NAME: Kick
+--- !u!114 &1357824849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1357824841}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97a9e805025284a23882a549bb87dc00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1386286615
 GameObject:
   m_ObjectHideFlags: 0
@@ -15303,9 +15536,11 @@ GameObject:
   - component: {fileID: 1386286617}
   - component: {fileID: 1386286621}
   - component: {fileID: 1386286620}
+  - component: {fileID: 1386286623}
+  - component: {fileID: 1386286622}
   m_Layer: 0
   m_Name: MainTrumpet
-  m_TagString: Untagged
+  m_TagString: Instrument
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15399,7 +15634,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15a80da248b34452a8f4779f1e5f53e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  centrePoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &1386286621
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16856,6 +17091,31 @@ MonoBehaviour:
   - 0
   - 0
   - 0
+--- !u!114 &1386286622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1386286615}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b7e4056558f94692988dcb01e060a5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FILE_NAME: MainTrumpet
+--- !u!114 &1386286623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1386286615}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97a9e805025284a23882a549bb87dc00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1427796668
 GameObject:
   m_ObjectHideFlags: 0
@@ -17054,9 +17314,11 @@ GameObject:
   - component: {fileID: 1492301276}
   - component: {fileID: 1492301280}
   - component: {fileID: 1492301279}
+  - component: {fileID: 1492301282}
+  - component: {fileID: 1492301281}
   m_Layer: 0
   m_Name: HiTrombone
-  m_TagString: Untagged
+  m_TagString: Instrument
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17150,7 +17412,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15a80da248b34452a8f4779f1e5f53e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  centrePoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &1492301280
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18607,6 +18869,31 @@ MonoBehaviour:
   - 0
   - 0
   - 0
+--- !u!114 &1492301281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1492301274}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b7e4056558f94692988dcb01e060a5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FILE_NAME: HiTrombone
+--- !u!114 &1492301282
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1492301274}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97a9e805025284a23882a549bb87dc00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1521511009
 GameObject:
   m_ObjectHideFlags: 0
@@ -19148,9 +19435,11 @@ GameObject:
   - component: {fileID: 1908182381}
   - component: {fileID: 1908182385}
   - component: {fileID: 1908182384}
+  - component: {fileID: 1908182387}
+  - component: {fileID: 1908182386}
   m_Layer: 0
   m_Name: HiHat
-  m_TagString: Untagged
+  m_TagString: Instrument
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19244,7 +19533,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15a80da248b34452a8f4779f1e5f53e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  centrePoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &1908182385
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20701,6 +20990,31 @@ MonoBehaviour:
   - 0
   - 0
   - 0
+--- !u!114 &1908182386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1908182379}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b7e4056558f94692988dcb01e060a5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FILE_NAME: HiHat
+--- !u!114 &1908182387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1908182379}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97a9e805025284a23882a549bb87dc00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1931025357
 GameObject:
   m_ObjectHideFlags: 0
@@ -20938,7 +21252,7 @@ GameObject:
   - component: {fileID: 1990294907}
   m_Layer: 0
   m_Name: LHPiano
-  m_TagString: Untagged
+  m_TagString: Instrument
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22538,7 +22852,7 @@ GameObject:
   - component: {fileID: 2113504831}
   m_Layer: 0
   m_Name: RHPiano
-  m_TagString: Untagged
+  m_TagString: Instrument
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

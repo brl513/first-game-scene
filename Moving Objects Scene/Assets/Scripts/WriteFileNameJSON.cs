@@ -1,47 +1,56 @@
 ﻿using System;
 using System.IO;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class JSONWriter : MonoBehaviour
+public class WriteFileNameJSON : MonoBehaviour
 {
-    MotionSetup motionSetup;
+    private GameObject[] instruments;
 
-    public string FILE_NAME;
-
-    Vector3 rotateAxis(Vector3 vec)
-    {
-        Quaternion rotation1 = Quaternion.Euler(0, 90, -90);
-        Quaternion rotation2 = Quaternion.Euler(0, 0, 0);
-
-
-
-        vec = rotation1 * rotation2 * vec;
-        var inverser = new Vector3(1, 1, -1);
-        return Vector3.Scale(inverser, vec);
-    }
-
+    private Scene scene;
+    private string sceneName;
+    private int instrumentsLength;
+    private int i;
 
     void Start()
     {
 
-        motionSetup = gameObject.GetComponent<MotionSetup>();
-        InstantPosition[] instantPosition = new InstantPosition[(int)(Settings.duration * Settings.FPS)];
+        instruments = GameObject.FindGameObjectsWithTag("Instrument");
+        instrumentsLength = instruments.Length;
 
-        for (int i = 0; i < (int)(Settings.duration * Settings.FPS); i++)
+        if (instrumentsLength < 1)
         {
-            var vec = new Vector3(motionSetup.instantX[i], motionSetup.instantY[i], motionSetup.instantZ[i]);
-            vec = rotateAxis(vec);
-
-            instantPosition[i] = new InstantPosition();
-            instantPosition[i].time = motionSetup.instantTime[i];
-            instantPosition[i].x = vec.x;
-            instantPosition[i].y = vec.y;
-            instantPosition[i].z = vec.z;
-
+            Debug.Log("No instruments found");
+        }
+        else
+        {
+            Debug.Log(instrumentsLength + " instruments found");
         }
 
+        scene = SceneManager.GetActiveScene();
+        sceneName = scene.name;
+
+        Debug.Log(sceneName);
+
+
+        Track[] tracks = new Track[instruments.Length];
+
+        i = 0;
+
+        foreach (GameObject instrument in instruments)
+        {
+            Debug.Log(instrument.name);
+            tracks[i] = new Track();
+            tracks[i].wavFileName = sceneName + instrument.name + ".wav";
+            tracks[i].JSONFileName = instrument.name + ".json";
+            i += 1;
+        }
+
+        Debug.Log("Made " + tracks.Length + " tracks");
+
+
         //Convert to JSON
-        string instantPositionToJson = JsonHelper.ToJson(instantPosition, true);
+        string tracktoJSON = JsonHelperB.ToJson(tracks, true);
 
         string pathString = @"/Users/brl513/Unity Projects/first-game-scene/Moving Objects Scene/Assets/JSONFiles";
 
@@ -56,14 +65,14 @@ public class JSONWriter : MonoBehaviour
         System.IO.Directory.CreateDirectory(pathString);
 
         // Create a file name for the file you want to create.
-        FILE_NAME += ".json";
+        sceneName += ".json";
 
         // This example uses a random string for the name, but you also can specify
         // a particular name.
         //string fileName = "MyNewFile.txt";
 
         // Use Combine again to add the file name to the path.
-        pathString = System.IO.Path.Combine(pathString, FILE_NAME);
+        pathString = System.IO.Path.Combine(pathString, sceneName);
 
         // Verify the path that you have constructed.
         Console.WriteLine("Path to my file: {0}\n", pathString);
@@ -75,12 +84,12 @@ public class JSONWriter : MonoBehaviour
         if (!System.IO.File.Exists(pathString))
         {
             StreamWriter sr = File.CreateText(pathString);
-            sr.WriteLine(instantPositionToJson);
+            sr.WriteLine(tracktoJSON);
             sr.Close();
         }
         else
         {
-            Console.WriteLine("File \"{0}\" already exists.", FILE_NAME);
+            Console.WriteLine("File \"{0}\" already exists.", sceneName);
             return;
         }
     }
