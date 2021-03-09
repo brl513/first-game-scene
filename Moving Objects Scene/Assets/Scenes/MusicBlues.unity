@@ -21270,9 +21270,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   oscillationInXAxis: 1
-  oscillationInYAxis: 1
+  oscillationInYAxis: 0
   oscillationInZAxis: 1
-  centrePoint: {x: 0, y: 0, z: 0}
+  centrePoint: {x: 0, y: -1, z: 0}
   xDisplacement: 2
   yDisplacement: 1
   zDisplacement: 1
