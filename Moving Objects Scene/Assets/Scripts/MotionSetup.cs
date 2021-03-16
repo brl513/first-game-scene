@@ -2,10 +2,10 @@
 
 public class MotionSetup : MonoBehaviour
 {
-    public float[] instantTime = new float[(int)(Settings.duration * Settings.FPS)]; // Sets up the arrays for the positions and times for the positions
-    public float[] instantX = new float[(int)(Settings.duration * Settings.FPS)];
-    public float[] instantY = new float[(int)(Settings.duration * Settings.FPS)];
-    public float[] instantZ = new float[(int)(Settings.duration * Settings.FPS)];
+    public float[] instantTime;  // Sets up the arrays for the positions and times for the positions
+    public float[] instantX;
+    public float[] instantY;
+    public float[] instantZ;
 
     public Vector3 getPositionForTime(float targetTime)
     {
@@ -32,6 +32,14 @@ public class MotionSetup : MonoBehaviour
         Vector3 upperPosition = new Vector3(instantX[upperIndex], instantY[upperIndex], instantZ[upperIndex]);
 
         return Vector3.Lerp(lowerPosition, upperPosition, fractionalIndex);
+    }
+
+    void Start()
+    {
+        instantTime = new float[(int)(Settings.duration * Settings.FPS)]; // Sets up the arrays for the positions and times for the positions
+        instantX = new float[(int)(Settings.duration * Settings.FPS)];
+        instantY = new float[(int)(Settings.duration * Settings.FPS)];
+        instantZ = new float[(int)(Settings.duration * Settings.FPS)];
     }
 }
 

@@ -1800,7 +1800,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b7e4056558f94692988dcb01e060a5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FILE_NAME: BassTrombone
 --- !u!114 &12363753
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3572,7 +3571,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b7e4056558f94692988dcb01e060a5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FILE_NAME: WalkTrombone
 --- !u!1 &314210109
 GameObject:
   m_ObjectHideFlags: 0
@@ -5474,7 +5472,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b7e4056558f94692988dcb01e060a5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FILE_NAME: StacTrumpet
 --- !u!114 &428201975
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7684,7 +7681,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b7e4056558f94692988dcb01e060a5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FILE_NAME: AltoSaxHi
 --- !u!114 &887611399
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8337,7 +8333,7 @@ MonoBehaviour:
   _imageSequenceFormatWindows: 0
   _imageSequenceFormatMacOS: 0
   _imageSequenceFormatIOS: 0
-  _renderResolution: 8
+  _renderResolution: 10
   _renderSize: {x: 1, y: 1}
   _renderAntiAliasing: -1
   _useMotionBlur: 0
@@ -10032,7 +10028,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b7e4056558f94692988dcb01e060a5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FILE_NAME: Snare
 --- !u!114 &1091531122
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11764,367 +11759,7 @@ MonoBehaviour:
   - 0
   - 0
   - 0
-  instantZ:
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
+  instantZ: []
 --- !u!114 &1258007803
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12137,7 +11772,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b7e4056558f94692988dcb01e060a5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FILE_NAME: AltoSaxLo
 --- !u!114 &1258007804
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13731,7 +13365,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b7e4056558f94692988dcb01e060a5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FILE_NAME: MidTrombone
 --- !u!114 &1261050681
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15509,7 +15142,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b7e4056558f94692988dcb01e060a5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FILE_NAME: Kick
 --- !u!114 &1357824849
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17103,7 +16735,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b7e4056558f94692988dcb01e060a5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FILE_NAME: MainTrumpet
 --- !u!114 &1386286623
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18881,7 +18512,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b7e4056558f94692988dcb01e060a5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FILE_NAME: HiTrombone
 --- !u!114 &1492301282
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21002,7 +20632,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b7e4056558f94692988dcb01e060a5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FILE_NAME: HiHat
 --- !u!114 &1908182387
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22833,7 +22462,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b7e4056558f94692988dcb01e060a5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FILE_NAME: LHPiano
 --- !u!1 &2113504823
 GameObject:
   m_ObjectHideFlags: 0
@@ -24433,4 +24061,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b7e4056558f94692988dcb01e060a5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FILE_NAME: RHPiano

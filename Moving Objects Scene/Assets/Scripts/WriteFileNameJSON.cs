@@ -52,7 +52,7 @@ public class WriteFileNameJSON : MonoBehaviour
         //Convert to JSON
         string tracktoJSON = JsonHelperB.ToJson(tracks, true);
 
-        string pathString = @"/Users/brl513/Unity Projects/first-game-scene/Moving Objects Scene/Assets/JSONFiles";
+        string pathString = System.IO.Path.Combine(Application.dataPath, "JSONFiles");
 
         // You can extend the depth of your path if you want to.
         //pathString = System.IO.Path.Combine(pathString, "SubSubFolder");

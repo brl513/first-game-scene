@@ -6,7 +6,7 @@ public class JSONWriter : MonoBehaviour
 {
     MotionSetup motionSetup;
 
-    public string FILE_NAME;
+    private string objectName;
 
     Vector3 rotateAxis(Vector3 vec)
     {
@@ -38,12 +38,18 @@ public class JSONWriter : MonoBehaviour
             instantPosition[i].y = vec.y;
             instantPosition[i].z = vec.z;
 
+            objectName = gameObject.name;
+
         }
+
+        Debug.Log("JSONWriter works up to here");
 
         //Convert to JSON
         string instantPositionToJson = JsonHelper.ToJson(instantPosition, true);
 
-        string pathString = @"/Users/brl513/Unity Projects/first-game-scene/Moving Objects Scene/Assets/JSONFiles";
+        string pathString = System.IO.Path.Combine(Application.dataPath, "JSONFiles");
+
+        Debug.Log(pathString);
 
         // You can extend the depth of your path if you want to.
         //pathString = System.IO.Path.Combine(pathString, "SubSubFolder");
@@ -56,14 +62,14 @@ public class JSONWriter : MonoBehaviour
         System.IO.Directory.CreateDirectory(pathString);
 
         // Create a file name for the file you want to create.
-        FILE_NAME += ".json";
+        objectName += ".json";
 
         // This example uses a random string for the name, but you also can specify
         // a particular name.
         //string fileName = "MyNewFile.txt";
 
         // Use Combine again to add the file name to the path.
-        pathString = System.IO.Path.Combine(pathString, FILE_NAME);
+        pathString = System.IO.Path.Combine(pathString, objectName);
 
         // Verify the path that you have constructed.
         Console.WriteLine("Path to my file: {0}\n", pathString);
@@ -80,7 +86,7 @@ public class JSONWriter : MonoBehaviour
         }
         else
         {
-            Console.WriteLine("File \"{0}\" already exists.", FILE_NAME);
+            Console.WriteLine("File \"{0}\" already exists.", objectName);
             return;
         }
     }
