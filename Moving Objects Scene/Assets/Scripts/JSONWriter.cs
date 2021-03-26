@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class JSONWriter : MonoBehaviour
 {
-    MotionSetup motionSetup;
 
     private string objectName;
 
@@ -20,11 +19,10 @@ public class JSONWriter : MonoBehaviour
         return Vector3.Scale(inverser, vec);
     }
 
-
-    void Start()
+    void writeArraysToJSON()
     {
 
-        motionSetup = gameObject.GetComponent<MotionSetup>();
+        MotionSetup motionSetup = gameObject.GetComponent<MotionSetup>();
         InstantPosition[] instantPosition = new InstantPosition[(int)(Settings.duration * Settings.FPS)];
 
         for (int i = 0; i < (int)(Settings.duration * Settings.FPS); i++)
@@ -89,6 +87,11 @@ public class JSONWriter : MonoBehaviour
             Console.WriteLine("File \"{0}\" already exists.", objectName);
             return;
         }
+    }
+
+    void Start()
+    {
+        writeArraysToJSON();
     }
 
 }
