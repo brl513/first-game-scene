@@ -1,0 +1,12 @@
+{
+    "Tracks": [
+        {
+            "wavFileName": "TeleconferenceOnexbot.wav",
+            "JSONFileName": "TeleconferenceOnexbot.json"
+        },
+        {
+            "wavFileName": "TeleconferenceOnexbot1.wav",
+            "JSONFileName": "TeleconferenceOnexbot1.json"
+        }
+    ]
+}

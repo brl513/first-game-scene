@@ -1,0 +1,20 @@
+{
+    "Tracks": [
+        {
+            "wavFileName": "SoundscapeOasisOasisSounds.wav",
+            "JSONFileName": "SoundscapeOasisOasisSounds.json"
+        },
+        {
+            "wavFileName": "SoundscapeOasisCamel.wav",
+            "JSONFileName": "SoundscapeOasisCamel.json"
+        },
+        {
+            "wavFileName": "SoundscapeOasisPropPlane.wav",
+            "JSONFileName": "SoundscapeOasisPropPlane.json"
+        },
+        {
+            "wavFileName": "SoundscapeOasisCamelTalk.wav",
+            "JSONFileName": "SoundscapeOasisCamelTalk.json"
+        }
+    ]
+}

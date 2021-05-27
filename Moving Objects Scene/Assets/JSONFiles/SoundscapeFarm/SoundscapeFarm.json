@@ -1,0 +1,44 @@
+{
+    "Tracks": [
+        {
+            "wavFileName": "SoundscapeFarmBird1.wav",
+            "JSONFileName": "Bird1.json"
+        },
+        {
+            "wavFileName": "SoundscapeFarmBird2.wav",
+            "JSONFileName": "Bird2.json"
+        },
+        {
+            "wavFileName": "SoundscapeFarmDuck2.wav",
+            "JSONFileName": "Duck2.json"
+        },
+        {
+            "wavFileName": "SoundscapeFarmDuck1.wav",
+            "JSONFileName": "Duck1.json"
+        },
+        {
+            "wavFileName": "SoundscapeFarmSheep.wav",
+            "JSONFileName": "Sheep.json"
+        },
+        {
+            "wavFileName": "SoundscapeFarmPig.wav",
+            "JSONFileName": "Pig.json"
+        },
+        {
+            "wavFileName": "SoundscapeFarmCow.wav",
+            "JSONFileName": "Cow.json"
+        },
+        {
+            "wavFileName": "SoundscapeFarmChicken1.wav",
+            "JSONFileName": "Chicken1.json"
+        },
+        {
+            "wavFileName": "SoundscapeFarmChicken2.wav",
+            "JSONFileName": "Chicken2.json"
+        },
+        {
+            "wavFileName": "SoundscapeFarmTractor.wav",
+            "JSONFileName": "Tractor.json"
+        }
+    ]
+}

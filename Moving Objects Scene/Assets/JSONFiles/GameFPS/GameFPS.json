@@ -1,0 +1,17 @@
+{
+    "Tracks": [
+        {
+            "wavFileName": "GameFPSAlien.wav",
+            "JSONFileName": "Alien.json"
+        },
+        {
+            "wavFileName": "GameFPSUFO.wav",
+            "JSONFileName": "UFO.json"
+        },
+        {
+            "wavFileName": "GameFPSGun.wav",
+            "JSONFileName": "Gun.json"
+        }
+    ]
+}
+

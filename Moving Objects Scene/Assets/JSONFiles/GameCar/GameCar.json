@@ -1,0 +1,36 @@
+{
+    "Tracks": [
+        {
+            "wavFileName": "GameCarBanana.wav",
+            "JSONFileName": "Banana.json"
+        },
+        {
+            "wavFileName": "GameCarJet.wav",
+            "JSONFileName": "Jet.json"
+        },
+        {
+            "wavFileName": "GameCarRightBrake.wav",
+            "JSONFileName": "RightBrake.json"
+        },
+        {
+            "wavFileName": "GameCarLeftBrake.wav",
+            "JSONFileName": "LeftBrake.json"
+        },
+        {
+            "wavFileName": "GameCarPlayerEngine.wav",
+            "JSONFileName": "PlayerEngine.json"
+        },
+        {
+            "wavFileName": "GameCarCoral.wav",
+            "JSONFileName": "Coral.json"
+        },
+        {
+            "wavFileName": "GameCarAqua.wav",
+            "JSONFileName": "Aqua.json"
+        },
+        {
+            "wavFileName": "GameCarApple.wav",
+            "JSONFileName": "Apple.json"
+        }
+    ]
+}

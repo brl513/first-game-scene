@@ -1,0 +1,16 @@
+{
+    "Tracks": [
+        {
+            "wavFileName": "TeleconferenceTwoybot.wav",
+            "JSONFileName": "TeleconferenceTwoybot.json"
+        },
+        {
+            "wavFileName": "TeleconferenceTwoxbot.wav",
+            "JSONFileName": "TeleconferenceTwoxbot.json"
+        },
+        {
+            "wavFileName": "TeleconferenceTwoxbot1.wav",
+            "JSONFileName": "TeleconferenceTwoxbot1.json"
+        }
+    ]
+}
