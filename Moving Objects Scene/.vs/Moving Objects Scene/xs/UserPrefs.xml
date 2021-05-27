@@ -1,29 +1,29 @@
 ﻿<Properties StartupConfiguration="{3F8049E5-3245-E762-41F3-37E4B0BCEA85}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/FPSMotionScripts/PositionArrayWriter.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/MusicScenesScripts/JSONWriter.cs">
     <Files>
-      <File FileName="Assets/Cartoon SportCar B01/Standard Assets/script/SimpleActivatorMenu.cs" Line="10" Column="1" />
-      <File FileName="Assets/Scripts/FPSMotionScripts/PositionRecorder.cs" />
-      <File FileName="Assets/Scripts/MotionArrayReader.cs" />
-      <File FileName="Assets/Scripts/FPSMotionScripts/PositionArrayWriter.cs" Line="11" Column="48" />
-      <File FileName="Assets/Scripts/FPSMotionScripts/PositionJSONWriter.cs" />
-      <File FileName="Assets/Scripts/MotionSetup.cs" />
-      <File FileName="Assets/Scripts/Settings.cs" />
+      <File FileName="Assets/Scripts/MusicScenesScripts/animationStateController.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/MusicScenesScripts/JSONWriter.cs" Line="9" Column="31" />
+      <File FileName="Assets/Scripts/MusicScenesScripts/WriteFileNameJSON.cs" />
+      <File FileName="Assets/Scripts/FPSSceneScripts/EnemyController.cs" />
+      <File FileName="Assets/Scripts/FPSSceneScripts/PlayerController.cs" />
+      <File FileName="Assets/Scripts/ListToText.cs" />
+      <File FileName="Assets/Scripts/CarSceneMotion/CarController.cs" />
+      <File FileName="Assets/Scripts/CarSceneMotion/NPCarController.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Moving Objects Scene" expanded="True">
             <Node name="Assets" expanded="True">
-              <Node name="Cartoon SportCar B01" expanded="True">
-                <Node name="Standard Assets" expanded="True">
-                  <Node name="script" expanded="True">
-                    <Node name="SimpleActivatorMenu.cs" selected="True" />
-                  </Node>
+              <Node name="Scripts" expanded="True">
+                <Node name="CarSceneMotion" expanded="True" />
+                <Node name="FPSSceneScripts" expanded="True" />
+                <Node name="MusicScenesScripts" expanded="True">
+                  <Node name="animationStateController.cs" selected="True" />
                 </Node>
               </Node>
-              <Node name="Scripts" expanded="True">
-                <Node name="FPSMotionScripts" expanded="True" />
-                <Node name="TypesOfMotion" expanded="True" />
+              <Node name="Standard Assets" expanded="True">
+                <Node name="Utility" expanded="True" />
               </Node>
             </Node>
           </Node>
@@ -33,7 +33,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="ecbee03b-c736-4355-8e42-5876a41b0786" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="7fe3226e-cebf-4221-82de-0d960748edce" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
